@@ -141,7 +141,7 @@ def send_visits_query():
             "available_accounts": 0
         }), 500
 
-    target_success = 1000
+    target_success = 10
     print(f"🚀 Sending visits to UID: {uid_int} using {token_count} tokens")
     print(f"Waiting for total {target_success} successful visits...")
 
